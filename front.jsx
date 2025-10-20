@@ -4,7 +4,7 @@ import Papa from 'papaparse';
 import * as XLSX from 'xlsx';
 
 // URL do backend no Render
-const BACKEND_URL = 'https://alpha-insights-backend.onrender.com';
+const BACKEND_URL = 'https://alpha-insights-simple-m2sw.vercel.app/';
 
 export default function AlphaInsights() {
   const [messages, setMessages] = useState([
